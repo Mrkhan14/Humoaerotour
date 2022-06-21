@@ -1,0 +1,181 @@
+.text-white {
+    color: #fff !important;
+}
+
+.text-secondary {
+    color: #6c757d !important;
+}
+
+.text-dark {
+    color: #343a40 !important;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.d-flex, .child-center {
+    display: flex !important;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.align-center, .child-center {
+    align-items: center;
+}
+
+.jusfity-center, .child-center {
+    justify-content: center;
+}
+
+.f-column {
+    flex-direction: column;
+}
+
+@media( max-width: 992px ) {
+    .order-lg {
+        order: 1;
+    }
+}
+
+@media( max-width: 769px ) {
+    .d-none-sm {
+        display: none;
+    }
+}
+
+@media( max-width: 992px ) {
+    .d-none-md {
+        display: none;
+    }
+}
+
+.position-relative {
+    position: relative !important;
+}
+
+.position-absolute {
+    position: absolute !important;
+}
+
+.position-fixed {
+    position: fixed !important;
+}
+
+.shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.shadow-none {
+    box-shadow: none !important;
+}
+
+.truncate {
+    overflow: hidden!important;
+    text-overflow: ellipsis!important;
+    white-space: nowrap!important;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.img-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container-lg {
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1360px;
+}
+
+.background-white {
+    background: #ffffff;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.vertical-y {
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-md {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: .5rem;
+    display: flex;
+    align-items: center;
+}
+
+.title::before {
+    content: '';
+    width: 75px;
+    display: block;
+    height: 2px;
+    background: #0bb2d4;
+    margin-right: 15px;
+}
+
+.title-level-2 {
+    line-height: 1.6em;
+    font-size: 30px;
+}
+
+.rounded-md {
+    border-radius: .375rem;
+}
+
+.text-center {
+    text-align: center;
+}

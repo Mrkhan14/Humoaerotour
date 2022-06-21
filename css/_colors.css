@@ -1,0 +1,44 @@
+:root {
+    --green-brown: 21,195,154;
+    --dark-blue: 67,122,136;
+    --orange: 255,196,124;
+    --success: 231,40,56;
+    --success2: 11, 178, 212;
+    --hover: 11, 178, 212;
+    --font-Medium: 'Montserrat-Medium';
+    --font-Bold: 'Montserrat-Bold';
+  }
+
+.bg-success {
+    background: rgba(var(--success));
+    color: #fff;
+    transition: .4s ease;
+}
+
+.bg-success:hover {
+    background: rgba(var(--hover))
+}
+
+.green-brown {
+    background: rgba(var(--green-brown))
+}
+
+.green-brown-shadow {
+    box-shadow: 0px 10px 40px -10px rgba(var(--green-brown));
+}
+
+.dark-blue {
+    background: rgba(var(--dark-blue));
+}
+
+.dark-blue-shadow {
+    box-shadow: 0px 10px 40px -10px rgba(var(--dark-blue));
+}
+
+.orange {
+    background: rgba(var(--orange));
+}
+
+.orange-shadow {
+    box-shadow: 0px 10px 40px -10px rgba(var(--orange));
+}
