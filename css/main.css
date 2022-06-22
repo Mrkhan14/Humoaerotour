@@ -1811,3 +1811,23 @@ body::-webkit-scrollbar-thumb {
   background-repeat: no-repeat;
   display: inline-block;
 }
+.visa-card{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.visa-card span{
+    width: 150px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    display: inline-block;
+    min-height: 82px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.visa-card span img{
+   width:100%;
+}
